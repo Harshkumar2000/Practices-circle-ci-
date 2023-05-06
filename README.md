@@ -1,4 +1,4 @@
-# Practices-circle-ci-
+# Practices-circle-ci
 this repo is for practices the new tool relate CI process and better that Jenkins 
 Circle- CI  this tool now gaining popularity lot of the company no shifting there CI part from JENKINS  to CIRCLE-CI 
 
