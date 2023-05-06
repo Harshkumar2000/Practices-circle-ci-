@@ -2,27 +2,27 @@
  jobs:
     build:
       docker:
-        - image : cimg/python:3.11
+        - image: cimg/python:3.11
       steps:
         - checkout
-        - run : pyhton main.py
+        - run: pyhton main.py
 
     # test :
     #   docker:
-    #     image : cimg/python:3.11
-    #   steps :
+    #     image: cimg/python:3.11
+    #   steps:
     #     - checkout
-    #     - run : python test.py 
+    #     - run: python test.py 
     
     # deploy:
-    #   docker : 
-    #     - image : cimg/python:3.11
-    #   steps :
-    #     - run : echo " hello deployement done successfully "
+    #   docker: 
+    #     - image: cimg/python:3.11
+    #   steps:
+    #     - run: echo " hello deployement done successfully "
   
 
   workflows:
-      build :
+      build:
          jobs:  
            - build 
 
